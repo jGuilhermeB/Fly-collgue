@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-[#020B2C] text-white flex">
+      <div class="w-[50%] h-full pl-[100px] pt-[100px]">
+        <h1 class="text-4xl font-bold text-[#D53569]">Faça Login</h1>
+        <h1 class="text-4xl font-bold text-[#D53569]">
+          E entre para o nosso time
+        </h1>
+        <img
+          src="../images/virtual-reality-animate.svg"
+          width="700px"
+          alt="imagem"
+        />
+      </div>
+      <div class="w-1/2 h-full flex items-center justify-center">
+        <div class="w-[400px] h-[400px] bg-[#2f2942] rounded-xl">
+          <div class="w-full h-[20%] flex items-center justify-center ">
+            <h1 class=" text-3xl font-bold text-[#D53569]">LOGIN</h1>
+          </div>
+          <div class="w-full h-[60%] px-[20px] flex flex-col gap-[10px]">
+            <div class="w-full flex flex-col">
+              <label class="font-bold" for="user">Usuário</label>
+              <input class="w-full h-[40px] rounded-lg border-none bg-[#514768] px-2 outline-none"
+               type="text" id="user" placeholder="Digite seu Usuário">
+            </div>
+            <div class="w-full flex flex-col">
+              <label class="font-bold" for="pass">Senha</label>
+              <input class="w-full h-[40px] rounded-md border-none bg-[#514768] px-2 outline-none" 
+              type="password" id="pass" placeholder=" *********">
+              <a class="flex justify-center font-bold" href="">Esqueceu sua Senha?</a>
+            </div>
+        </div>
+        <div class="w-full h-[20%] flex justify-center ">
+          <button class="w-[90%] h-[45px] rounded-md bg-[#D53569] font-bold shadow-lg shadow-[#D5356867]" >LOGIN</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
